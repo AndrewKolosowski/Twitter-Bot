@@ -3,11 +3,11 @@ import time
 from selenium import webdriver
 import os
 #API Information
-api_key = 'fSx85o845K8oHv54hY1fZMrdB'
-api_secret = 'FCZlyXt06hDwAqVOAialKn2PsTYgtQQ5ecgvSpWpACaNNqbwaq'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAAoslgEAAAAA2Ywbt0%2FAulugTdv6lqRPV5LwoxY%3Dr4trVtbiDJeH5ouxczvc3sguPZf0CRVBtFhx57J3IKo44lWQMG'
-access_token = '3667934417-q5Aq82H1cogono7t8Czx1jEOXaL9OhMMSgbjN2T'
-access_token_secret = 'pPyOUTDKr5QC84sghWSROrIrSl4n04vfJx0ilBAsCongn'
+api_key = 'xxx'
+api_secret = 'xxx'
+bearer_token = 'xxx'
+access_token = 'xxx'
+access_token_secret = 'xxx'
 
 client = tweepy.Client(bearer_token, api_key, api_secret, access_token, access_token_secret)
 auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_token_secret)
